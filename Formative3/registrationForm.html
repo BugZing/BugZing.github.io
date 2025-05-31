@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/Formative3/registrationDesign.css">
+
+    <title>Registration Form</title>
+</head>
+<body>
+    <div  class="customHeader">
+        <h1 style="margin:0;">FEU SUBMISSION FORM</h1>
+    </div>
+
+    <div class="customBox">
+        <form action="#">
+            <label for="fullName">Full name<br></label>
+            <input type="text" id="fullName" name="fullName"  required class="customInput"><br>
+
+            <label for="age">Age<br></label>
+            <input type="text" id="age" name="age"  required class="customInput"><br>
+
+            <label for="sex">Sex<br></label>
+            <select name="sex" id="sex" style="width:25%;">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select><br>
+
+            <label for="course">Course<br></label>
+            <select name="course" id="course" style="width:25%;">
+                <option value="BSITIC">BSITIC</option>
+                <option value="BSITAGD">BSITAGD</option>
+                <option value="BSITWMA">BSITWMA</option>
+            </select><br>
+            
+            
+            <label for="email">Email address<br></label>
+            <input type="text" id="email" name="email"  required class="customInput"><br>
+
+            <label for="contact">Phone number<br></label>
+            <input type="text" id="contact" name="contact" required class="customInput"><br>
+
+            <label for="pfp">Insert Grade 12 certificate<br></label>
+            <input type="file" id="pfp" name="dig" required class="customInput"><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

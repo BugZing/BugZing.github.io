@@ -1,0 +1,51 @@
+
+body{
+    font-family: "sans-serif",serif;
+    font-size: 25px;
+
+    background-image: url('https://www.feu.edu.ph/wp-content/themes/feu_2023/assets/images/feu_image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+label{
+    color:black;
+    font:bold;
+    font-size: 25px;
+    text-align: left;
+}
+
+form{
+    padding: 20px;
+}
+
+.customInput{
+    width:100%;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+.customBox{
+    margin: auto;
+    width : 500px;
+    height: auto;
+    background-color :rgb(70, 247, 120);
+    padding: 10px; border: solid;
+    border-width:5px;
+    font-size: 15px;
+}
+
+.customHeader{
+    margin: auto;
+    width : 500px;
+    height: auto;
+    background-color: rgb(254, 254, 92);
+    padding: 10px; border: solid;
+    border-width:5px;
+    font-size: 15px;
+    text-align: center;
+}
