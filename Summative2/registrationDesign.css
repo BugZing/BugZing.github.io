@@ -1,0 +1,19 @@
+
+label{
+    color:black;
+    font:bold;
+    font-size: 25px;
+}
+
+form{
+    padding: 20px;
+}
+
+.customInput{
+    width:100%;
+}
+
+.customBox{
+    width : 500px;
+    background-color :bisque;
+}
