@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/Formative4/bootstrap.css">
+    <link rel="stylesheet" href="/Formative4/registrationDesign.css">
+
+    <title>Registration Form</title>
+
+</head>
+<body>
+    <div  class="customHeader bg-warning">
+        <h1>FEU REGISTRATION FORM</h1>
+    </div>
+
+    <div class="customBox bg-success">
+        <form action="#">
+            <label for="fullName" class="text-decoration-underline ">Full name<br></label>
+            <input type="text" id="fullName" name="fullName"  required class="customInput"><br>
+
+            <label for="age" class="text-decoration-underline">Age<br></label>
+            <input type="text" id="age" name="age"  required class="customInput"><br>
+
+            <label for="sex" class="text-decoration-underline">Sex</label><br>
+            <select name="sex" id="sex" style="width:25%;">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select><br>
+
+            <label for="course" class="text-decoration-underline">Course</label><br>
+            <select name="course" id="course" style="width:25%;">
+                <option value="BSITIC">BSITIC</option>
+                <option value="BSITAGD">BSITAGD</option>
+                <option value="BSITWMA">BSITWMA</option>
+            </select><br>
+            
+            
+            <label for="email" class="text-decoration-underline">Email address<br></label>
+            <input type="text" id="email" name="email"  required class="customInput"><br>
+
+            <label for="contact" class="text-decoration-underline">Phone number<br></label>
+            <input type="text" id="contact" name="contact" required class="customInput"><br>
+
+            <label for="pfp" class="text-decoration-underline">Insert Grade 12 certificate<br></label>
+            <input type="file" id="pfp" name="dig" required class="customInput"><br>
+
+            <input type="submit" value="Submit" class="btn btn-warning btn">
+        </form>
+    </div>
+
+
+</body>
+</html>
