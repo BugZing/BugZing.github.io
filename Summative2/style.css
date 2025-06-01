@@ -6,8 +6,7 @@
     border-style: solid;
     border-width: 2px;
     padding: 25px;
-    align-content: center;
-    box-shadow: 0px 0px 10px 2px;
+    box-shadow: 0px 0px 30px #89c6d9;
     background-color: #001621;
 }
 
@@ -30,6 +29,12 @@
 }
 
 body{
-    background-image: url(/assets/gorillaz.png);
+    background-color: black;
+}
+
+.con-pfp{
+    width:90%; 
+    border-radius: 100%;
+    margin-top: 30px;
 }
 
