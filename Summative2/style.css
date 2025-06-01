@@ -1,0 +1,35 @@
+.con-custom{
+    margin:auto;
+    height: auto;
+    margin-top: 50px;
+    width: 1100px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 25px;
+    align-content: center;
+    box-shadow: 0px 0px 10px 2px;
+    background-color: #001621;
+}
+
+.con-box{
+    margin:auto;
+    margin: 10px;
+    padding:5px;
+    text-align: center;
+    
+}
+
+.con-text-left{
+    text-align: left;
+    color:beige
+}
+
+.con-text-right{
+    text-align: right;
+    color:beige
+}
+
+body{
+    background-image: url(/assets/gorillaz.png);
+}
+
