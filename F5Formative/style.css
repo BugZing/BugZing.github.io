@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-image: url('/F5Formative/assets/FBIBg.jpg');
+    background-repeat: no-repeat ;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+div{
+    padding: 5% ;
+    border: 5px solid black;
+    margin: 20%;
+    margin-top: 3%;
+}
+
+.customText{
+    color: black;
+}
+
+.transparentBg{
+    background-color: rgb(169, 169, 169);
+}
+
+.customeImage{
+    width: 200px;
+}
+
+.customDiv{
+    padding: 5% ;
+    border: 5px solid black;
+    margin: 0%;
+
+}
